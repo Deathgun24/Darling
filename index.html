@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un pedacito del cielo: Mari</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .grid-item img {
+            width: 100%;
+            height: 400px; /* Altura fija para todas las imágenes */
+            object-fit: cover; /* Recorta la imagen para llenar el espacio */
+            border-radius: 10px; /* Esquinas redondeadas */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra elegante */
+        }
+        .grid-item {
+            text-align: center; /* Centrar contenido */
+        }
+        .grid-item p {
+            font-size: 1.1rem;
+            font-style: italic;
+            color: #6c757d; /* Color suave para el texto */
+        }
+        .grid-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #ff5f7e; /* Un tono rosa más fuerte */
+        }
+        body {
+            background-color: #FFD1DC; /* Fondo rosa pastel */
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <!-- Título centrado -->
+        <div class="grid-title">Un pedacito del cielo: Mari 🌸</div>
+
+        <!-- Grid de imágenes -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="grid-item">
+                    <img src="imagen1.jpeg" alt="imagen1">
+                    <p>🎉 2 fiestas, 2 sonrisas.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="grid-item">
+                    <img src="imagen2.jpeg" alt="Imagen 2">
+                    <p>⏳ Valió la pena cada segundo de espera.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="grid-item">
+                    <img src="imagen12.jpeg" alt="Imagen 3">
+                    <p>🕰️ ¿Adivinas de cuándo es este video? Te debo algo si lo logras. </p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="grid-item">
+                    <img src="imagen4.jpeg" alt="Imagen 4">
+                    <p>✨ Una pulsera, una historia.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="grid-item">
+                    <img src="imagen3.jpeg" alt="Imagen 5">
+                    <p>🎂 El primero de muchos cumpleaños.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="grid-item">
+                    <img src="imagen6.jpeg" alt="Imagen 6">
+                    <p> Edo y una cajita feliz. </p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="grid-item">
+                    <img src="imagen8.jpeg" alt="Imagen 7">
+                    <p>💐 Flores amarillas, un Snoopy y una Snoopyna feliz.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="grid-item">
+                    <img src="imagen7.jpeg" alt="Imagen 8">
+                    <p>⏳ Cenicientos llegando a las 5am. </p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="grid-item">
+                    <img src="imagen11.jpeg" alt="Imagen 9">
+                    <p>🍴 Comer y reír contigo: llena el estómago y el alma.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Darling"
+  agent-id="499e7ff3-4133-481f-8e6f-68daf6b1235e"
+  language-code="es"
+></df-messenger>
+</body>
+</html>
